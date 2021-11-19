@@ -7,4 +7,4 @@ class HybridListView(JsonResponseMixin, MultipleObjectTemplateResponseMixin, Bas
         if self.request.GET.get('format') == 'json':
             return self.render_to_json_response(context=context)
         else:
-            super().render_to_response(context)
+            return super().render_to_response(context)
