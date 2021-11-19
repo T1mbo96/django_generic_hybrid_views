@@ -7,12 +7,12 @@ setup(
             'django_generic_hybrid_views',
             ]
         ),
-    version='0.2.0',
+    version='0.3.0',
     license='MIT',
     description='Generic Hybrid class based views for the webframework Django.',
     author='Timo Michel',
     author_email='TimoM96@outlook.de',
-    url='https://github.com/T1mbo96/django_generic_hybrid_views/archive/refs/tags/v_020.tar.gz',
+    url='https://github.com/T1mbo96/django_generic_hybrid_views/archive/refs/tags/v_030.tar.gz',
     keywords=[
         'django',
         'json',
@@ -20,7 +20,7 @@ setup(
     ],
     install_requires=[
         'Django==3.2.9',
-        'django_generic_json_class_based_views==0.2.0',
+        'django_generic_json_class_based_views==0.3.0',
     ],
     setup_requires=[
         'pytest-runner',
